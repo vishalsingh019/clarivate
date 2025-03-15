@@ -1,0 +1,24 @@
+.sidemenu-wrapper{
+  border-right: 1px solid #f1f1f1;
+  /* background-color: #f1f1f1; */
+  height: calc( 100vh - 50px );
+   
+}
+
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: white;
+    width: 60px;
+    cursor: pointer;
+    border-bottom: 1px solid #f1f1f1;
+
+
+}
+
+
+.icon-wrapper:hover{
+    background: radial-gradient(rgb(130, 215, 238), transparent) ;
+}

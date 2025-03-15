@@ -1,0 +1,23 @@
+:root {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+    font-weight: 400;
+    color: #555
+
+  }
+
+  body{
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+
+  .main-wrapper{
+     display: flex;
+  }
+
+  .page-content-wrapper{
+    flex: auto;
+    overflow: scroll;
+    height: calc(100vh - 80px);
+  }
