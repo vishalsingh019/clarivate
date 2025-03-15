@@ -17,9 +17,6 @@ const ItemsList = ({
   const observerRef = useRef<HTMLDivElement | null>(null);
   const loadingRef = useRef(false);
  
-  if (!setFavorites) {
-    console.error("setFavorites is missing in ItemsList! Check where it is rendered.");
-  }
 
   useEffect(() => {
     console.log("scrollPosition")
